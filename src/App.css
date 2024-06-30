@@ -1,0 +1,80 @@
+/* //src/App.css */
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.todo-list {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.todo-list th, .todo-list td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.todo-list th {
+  background-color: #f4f4f4;
+}
+
+.todo-list th:nth-child(3), .todo-list td:nth-child(3) {
+  width: 120px;
+}
+
+.edit-input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.task-name, .edit-input {
+  display: inline-block;
+  width: 100%;
+}
+
+.edit-button {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button, select {
+  cursor: pointer;
+}
+
+select {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.add-task {
+  margin: 20px 0;
+}
+
+.add-task input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.add-task button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-task button:hover {
+  background-color: #218838;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
